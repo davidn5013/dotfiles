@@ -157,7 +157,7 @@ function homebackup {
 }
 
 function homerestore {
-	sudo tar -xvpzf $HOME/davidn-w/.wsllinks/dbconf/$* $HOME --numeric-owner
+	tar -xvpzf $HOME/davidn-w/.wsllinks/dbconf/$1 -C / --numeric-owner
 }
 
 function hahk {
