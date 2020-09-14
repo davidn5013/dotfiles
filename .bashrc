@@ -160,7 +160,6 @@ function hahk {
 	keyHH.exe -#klink $1 "c:\Program Files\AutoHotkey\AutoHotkey.chm" 
 }
  
- 
 ## hoppas det är en cool promtp
 #gpath=$home/go
 #function _update_ps1() {
@@ -170,6 +169,4 @@ function hahk {
 #        prompt_command="_update_ps1; $prompt_command"
 #fi
 
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-alias config='/usr/bin/git --git-dir=/home/davidn/.cfg/ --work-tree=/home/davidn'
