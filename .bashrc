@@ -156,6 +156,10 @@ function homebackup {
 	tar czvf $HOME/davidn-w/.wsllinks/dbconf/wsl_davidn_home$(date +%F%H%M%S).tar.gz --exclude=davidn-w --one-file-system $HOME
 }
 
+function homerestore {
+	sudo tar -xvpzf $HOME/davidn-w/.wsllinks/dbconf/$* $HOME --numeric-owner
+}
+
 function hahk {
 	keyHH.exe -#klink $1 "c:\Program Files\AutoHotkey\AutoHotkey.chm" 
 }
