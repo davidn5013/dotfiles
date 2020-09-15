@@ -132,9 +132,12 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-#fortune
+clear
+fortune
+echo ---
 not=$HOME/davidn-w/.wsllinks/nottoself.txt 
-#tail -n 8 $not
+cat $not
+echo ---
 
 function addnot() {
 #echo - [ ] $(date '+%f %h:%m:%s') $* | tee >>$not

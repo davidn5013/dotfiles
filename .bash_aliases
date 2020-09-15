@@ -35,8 +35,7 @@ instapp() {
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
 ##Baregit aliases
-alias config='/usr/bin/git --git-dir=/home/davidn/.cfg/ --work-tree=/home/davidn'
-alias baregitfiles='config ls-tree --full-tree -r --name-only HEAD'
-
+alias bgit='/usr/bin/git --git-dir=/home/davidn/.cfg/ --work-tree=/home/davidn'
+alias bgitf='config ls-tree --full-tree -r --name-only HEAD'
 
 # The end
