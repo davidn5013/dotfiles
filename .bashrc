@@ -160,7 +160,7 @@ function homebackup {
 }
 
 function homerestore {
-	tar -xvpzf $HOME/davidn-w/.wsllinks/dbconf/$1 -C / --numeric-owner
+	tar -xvpzf $HOME/davidn-w/.wsllinks/dbconf/$1 -C / --numeric-owner --overwrite --overwrite-dir
 }
 
 function hahk {
