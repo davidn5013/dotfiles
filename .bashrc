@@ -166,6 +166,10 @@ function homerestore {
 function hahk {
 	keyHH.exe -#klink $1 "c:\Program Files\AutoHotkey\AutoHotkey.chm" 
 }
+
+function hpyt {
+	keyHH.exe -#klink $1 "C:\Users\david\Dropbox\Dev\Privat\Python\chm\python.chm" 
+}
  
 ## hoppas det är en cool promtp
 #gpath=$home/go
